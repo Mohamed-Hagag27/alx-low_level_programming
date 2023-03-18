@@ -13,6 +13,6 @@ while (alphabet < 123)
 putchar(alphabet);
 alphabet++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
