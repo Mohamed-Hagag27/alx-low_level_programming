@@ -7,9 +7,12 @@
  */
 int main(void)
 {
-for (char alphabet = 'a'; alphabet < 123 ; alphabet++)
+char alphabet = 'a';
+while (alphabet < 123)
+{
 putchar(alphabet);
-
+alphabet++;
+}
 putchar(' ');
 return (0);
 }
