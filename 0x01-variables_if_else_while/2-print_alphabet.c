@@ -13,6 +13,5 @@ while (alphabet < 123)
 putchar(alphabet);
 alphabet++;
 }
-putchar(' ');
 return (0);
 }
