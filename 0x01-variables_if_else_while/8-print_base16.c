@@ -9,12 +9,12 @@
 int main(void)
 {
 int num = 48;
+char base = 'a';
 while (num < 58)
 {
 putchar(num);
 num++;
 }
-char base = 'a';
 while (base < 103)
 {
 putchar(base);
