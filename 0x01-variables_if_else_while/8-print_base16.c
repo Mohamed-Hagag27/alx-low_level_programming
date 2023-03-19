@@ -14,11 +14,11 @@ while (num < 58)
 putchar(num);
 num++;
 }
-char base16 = 'a';
-while (base16 < 103)
+char base = 'a';
+while (base < 103)
 {
-putchar(base16);
-base16++;
+putchar(base);
+base++;
 }
 putchar('\n');
 return (0);
