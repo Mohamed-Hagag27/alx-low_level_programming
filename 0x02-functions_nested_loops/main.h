@@ -1,7 +1,7 @@
-#if defined(MAIN.H)
+#if defined (MAIN.H) 
 #error "Must only be included once and only from .c files"
 #endif
-#define MAIN.H
+#define MAIN.H 
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -11,5 +11,5 @@
  */
 int _putchar(char c)
 {
-return (write(1, &c, 1));
+return (fwrite(1, &c, 1));
 }
