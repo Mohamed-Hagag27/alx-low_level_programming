@@ -3,7 +3,7 @@
 /**
  * _putchar - prints putchar
  */
-void _putchar(void)
+inline void _putchar(void)
 {
 printf("_putchar\n");
 }
