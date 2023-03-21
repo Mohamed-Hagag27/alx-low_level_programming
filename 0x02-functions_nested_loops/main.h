@@ -1,10 +1,15 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#if defined(MAIN.H)
+#error "Must only be included once and only from .c files"
+#endif
+#define MAIN.H
 /**
- * _putchar - prints putchar
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-inline void _putchar(void)
+int _putchar(char c)
 {
-printf("_putchar\n");
+return (write(1, &c, 1));
 }
-#endif /* MAIN_H_ */
