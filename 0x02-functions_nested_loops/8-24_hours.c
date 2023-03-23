@@ -22,9 +22,8 @@ _putchar(b + '0');
 _putchar(':');
 _putchar(c + '0');
 _putchar(d + '0');
-if (!(a == 2 && b == 3 && c == 5 && d == 9))
 _putchar('\n');
-else
+if (a == 2 && b == 3 && c == 5 && d == 9)
 x = 1;
 d++;
 }
