@@ -21,4 +21,6 @@ int print_sign(int n);
 
 int _abs(int n);
 
+void jack_bauer(void);
+
 #endif
