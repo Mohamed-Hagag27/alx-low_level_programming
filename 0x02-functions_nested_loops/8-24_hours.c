@@ -25,7 +25,7 @@ _putchar(d + '0');
 if (!(a == 2 && b == 3 && c == 5 && d == 9))
 _putchar('\n');
 else
-x = 1
+x = 1;
 d++;
 }
 c++;
