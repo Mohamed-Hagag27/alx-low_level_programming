@@ -5,6 +5,7 @@
 void jack_bauer(void)
 {
 int a = 0;
+int x = 0;
 while (a < 3)
 {
 int b = 0;
@@ -23,13 +24,16 @@ _putchar(c + '0');
 _putchar(d + '0');
 if (!(a == 2 && b == 3 && c == 5 && d == 9))
 _putchar('\n');
+else
+x = 1
 d++;
 }
 c++;
 }
+if (x)
+break;
 b++;
 }
 a++;
 }
-
 }
