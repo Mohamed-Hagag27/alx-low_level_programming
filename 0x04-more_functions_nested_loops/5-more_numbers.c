@@ -14,7 +14,7 @@ if (j > 9)
 {
 int num = j % 10;
 _putchar('1');
-/*_putchar(num + '0');*/
+_putchar(num + '0');
 }
 else
 _putchar(j + '0');
