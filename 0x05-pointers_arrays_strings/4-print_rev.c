@@ -3,7 +3,7 @@
  * print_rev - print the string in reverse .
  * @str: pointer to the begining of the string.
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 int counter = 0;
 while (str[counter] != '\0')
@@ -12,7 +12,7 @@ counter++;
 }
 while (counter > -1)
 {
-_putchar(*(str + counter));
+_putchar(s[counter]);
 counter--;
 }
 _putchar('\n');
