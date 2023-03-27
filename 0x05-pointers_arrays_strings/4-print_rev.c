@@ -5,7 +5,11 @@
  */
 void print_rev(char *str)
 {
-int counter = _strlen(str);
+int counter = 0;
+while (str[counter] != '\0')
+{
+counter++;
+}
 while (counter > -1)
 {
 _putchar(*(str + counter));
