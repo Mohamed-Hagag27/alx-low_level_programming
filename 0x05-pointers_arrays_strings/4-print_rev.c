@@ -15,4 +15,5 @@ while (counter > -1)
 _putchar(*(str + counter));
 counter--;
 }
+_putchar('\n');
 }
