@@ -17,7 +17,6 @@ for (counter = i / 2; counter < i  ; counter++)
 
 _putchar(str[counter]);
 
-_putchar('\n');
 }
 else
 {
