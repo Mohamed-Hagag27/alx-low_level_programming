@@ -1,5 +1,5 @@
 #include"main.h"
-/**
+11;rgb:0000/0000/0000/**
  * puts_half - prints the second half of a string.
  * @str: pointer to the begining of the string.
  */
@@ -27,5 +27,5 @@ for (counter = i - remainder ; counter < i; counter++)
 _putchar(str[counter]);
 
 }
-_putchar('\n')
+_putchar('\n');
 }
