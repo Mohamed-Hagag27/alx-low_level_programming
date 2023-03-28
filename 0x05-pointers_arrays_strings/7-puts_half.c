@@ -27,4 +27,5 @@ for (counter = i - remainder ; counter < i; counter++)
 _putchar(str[counter]);
 
 }
+_putchar('\n')
 }
