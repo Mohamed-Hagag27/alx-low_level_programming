@@ -10,7 +10,8 @@ while (s[i] != '\0')
 {
 i++;
 }
-int index = i - 1;
+int index;
+index = i - 1;
 int c;
 for (c = 0; c < i / 2; c++)
 {
