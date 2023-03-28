@@ -14,7 +14,7 @@ i++;
 for (counter = (i - 1)  / 2; counter < i  ; counter++)
 
 if (counter == i / 2 && i % 2 != 0)
-ontinue;
+continue;
 _putchar(str[counter]);
 
 _putchar('\n');
