@@ -14,11 +14,11 @@ i++;
 if (i % 2 == 0)
 {
 for (counter = i / 2; counter < i  ; counter++)
-{
+
 _putchar(str[counter]);
 
 _putchar('\n');
-
+}
 else
 {
 remainder = (i - 1) / 2;
