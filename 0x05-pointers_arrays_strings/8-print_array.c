@@ -1,5 +1,5 @@
-#include"main.h"
 #include <stdio.h>
+#include "main.h"
 /**
  * print_array - print n numbers of the array.
  * @a: pointer to the begining of the array.
@@ -15,5 +15,5 @@ printf("%d", a[i]);
 else
 printf(", %d", a[i]);
 }
-_putchar('\n');
+printf("\n");
 }
