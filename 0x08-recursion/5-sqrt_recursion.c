@@ -7,7 +7,7 @@
  */
 int multiplier(int x, int y)
 {
-if (x == y)
+if (y * y > x)
 return (-1);
 if (y * y == x)
 return (y);
