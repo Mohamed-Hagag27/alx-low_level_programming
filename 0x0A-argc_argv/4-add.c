@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 int i, j, length;
-char* ptr;
+char *ptr;
 int total = 0;
 if (argc < 2)
 printf("%d\n", 0);
@@ -33,9 +33,9 @@ printf("Error\n");
 return (1);
 }
 }
-total+= atoi(argv[i]);
+total += atoi(argv[i]);
 }
-printf("%d", total);
+printf("%d\n", total);
 }
 return (0);
 }
