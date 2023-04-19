@@ -13,7 +13,7 @@ char *arr;
 unsigned int i;
 arr = malloc(sizeof(char) * size);
 if (arr == NULL)
-return (NULL);
+return ('\0');
 for (i = 0; i < size; i++)
 {
 arr[i] = c;
