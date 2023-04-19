@@ -18,6 +18,6 @@ for (i = 0; i < size; i++)
 {
 arr[i] = c;
 }
-//arr[i] = '\0';
+/*arr[i] = '\0';*/
 return (arr);
 }
