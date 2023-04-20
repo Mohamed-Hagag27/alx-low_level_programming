@@ -14,13 +14,13 @@ op_t ops[] = {
 {"*", op_mul},
 {"/", op_div},
 {"%", op_mod},
-{NULL, NULL};
+{NULL, NULL}
 };
 int i;
 i = 0;
 while (i < 6)
 {
-if (*ops[i].op == s)
+if (ops[i].op == s)
 return (*ops[i].f);
 }
 return (NULL);

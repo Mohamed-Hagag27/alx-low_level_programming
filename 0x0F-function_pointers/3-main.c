@@ -8,11 +8,11 @@
  * @argv: array of the arguments.
  * Return: always 0.
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 int num1, num2, result;
 int (*op_function)(int, int);
-if ((argv[2] == '/' || argv[2] == '%') && argv[3] == '0')
+if ((*argv[2] == '/' || *argv[2] == '%') && *argv[3] == '0')
 {
 printf("Error\n");
 exit(100);
@@ -30,7 +30,7 @@ if (op_function == NULL)
 printf("Error\n");
 exit(99);
 }
-result = ptr(num1, num2);
+result = op_function(num1, num2);
 printf("%d\n", result);
 return (0);
 }
