@@ -10,7 +10,7 @@ void print_all(const char * const format, ...)
 {
 int i = 0;
 va_list argument_input;
-char *sarray = NULL;
+char *sarray;
 char *separator = ", ";
 va_start(argument_input, format);
 while (format[i] != '\0' && format != NULL)
