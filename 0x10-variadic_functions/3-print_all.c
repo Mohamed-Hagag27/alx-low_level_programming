@@ -10,7 +10,6 @@ void print_all(const char * const format, ...)
 {
 int i = 0;
 va_list argument_input;
-char *str = "(nil)";
 char *sarray = NULL;
 char *separator = ", ";
 va_start(argument_input, format);
@@ -30,8 +29,10 @@ break;
 case 's':
 sarray = va_arg(argument_input, char *);
 if (sarray == NULL)
-sarray = str;
+sarray = ("(nil)");
+
 printf("%s", sarray);
+
 break;
 default:
 i++;
