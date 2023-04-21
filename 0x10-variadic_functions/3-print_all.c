@@ -38,6 +38,7 @@ break;
 default:
 i++;
 continue;
+}
 if ((format[i + 1] != '\0') && (format[i] == 'c' || format[i] == 'i' ||
 format[i] == 'f' || format[i] == 's'))
 printf("%s", separator);
@@ -45,5 +46,5 @@ i++;
 }
 printf("\n");
 va_end(argument_input);
-}
+
 }
