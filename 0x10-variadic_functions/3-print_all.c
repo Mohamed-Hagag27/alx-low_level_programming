@@ -29,7 +29,7 @@ break;
 case 's':
 sarray = va_arg(argument_input, char *);
 if (sarray == NULL)
-sarray = ("(nil)");
+sarray = "nil";
 
 printf("%s", sarray);
 
