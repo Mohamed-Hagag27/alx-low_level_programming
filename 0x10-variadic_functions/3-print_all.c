@@ -16,7 +16,7 @@ char *separator = ", ";
 
 va_start(argument_input, format);
 
-while (format[i] != '\0' && format != NULL)
+while (format[i] && format)
 {
 switch (format[i])
 {
