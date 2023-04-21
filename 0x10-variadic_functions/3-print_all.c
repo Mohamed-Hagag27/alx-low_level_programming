@@ -29,11 +29,9 @@ break;
 case 's':
 sarray = va_arg(argument_input, char *);
 if (sarray == NULL)
-{
 sarray = "(nil)";
-}
-printf("%s", sarray);
 
+printf("%s", sarray);
 break;
 default:
 i++;
