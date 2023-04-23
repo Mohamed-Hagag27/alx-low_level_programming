@@ -10,7 +10,7 @@ void print_all(const char * const format, ...)
 {
 int i = 0;
 va_list argument_input;
-char *sarray;
+char *sarray = NULL;
 char *separator = ", ";
 va_start(argument_input, format);
 while (format[i] != '\0' && format != NULL)
@@ -20,6 +20,7 @@ switch (format[i])
 case 'c':
 printf("%c", va_arg(argument_input, int));
 break;
+
 case 'i':
 printf("%d", va_arg(argument_input, int));
 break;
@@ -34,9 +35,9 @@ sarray = "(nil)";
 printf("%s", sarray);
 break;
 default:
-i++
-  continue;
-}
+  break;
+ }
+i++;
 if ((format[i + 1] != '\0') && (format[i] == 'c' || format[i] == 'i' ||
 format[i] == 'f' || format[i] == 's'))
 printf("%s", separator);
