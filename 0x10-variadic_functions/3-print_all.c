@@ -34,9 +34,9 @@ sarray = "(nil)";
 printf("%s", sarray);
 break;
 default:
-break;
-}
 i++
+  continue;
+}
 if ((format[i + 1] != '\0') && (format[i] == 'c' || format[i] == 'i' ||
 format[i] == 'f' || format[i] == 's'))
 printf("%s", separator);
