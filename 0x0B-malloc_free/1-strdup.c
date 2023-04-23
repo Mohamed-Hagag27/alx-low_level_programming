@@ -17,7 +17,7 @@ while (str[i])
 length++;
 i++;
 }
-strn = malloc(length * (sizeof(char)));
+strn = malloc((length + 1) * (sizeof(char)));
 
 if (strn == NULL)
 return (NULL);
