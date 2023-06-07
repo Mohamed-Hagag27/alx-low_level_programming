@@ -9,14 +9,10 @@
  */
 char *_strchr(char *s, char c)
 {
-char *letter;
 while (*s != '\0')
 {
 if (c == *s)
-{
-letter = s;
-return (letter);
-}
+return (s);
 s++;
 }
 
