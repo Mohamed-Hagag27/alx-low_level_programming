@@ -15,7 +15,7 @@ while (*s)
 if (c == *s)
 {
 letter = s;
- return (letter)
+return (letter);
 }
 s++;
 }
