@@ -9,16 +9,16 @@
  */
 char *_strchr(char *s, char c)
 {
-char *letter = NULL;
-while (*s != NULL)
+char *letter;
+while (*s)
 {
 if (c == *s)
 {
 letter = s;
-break;
+ return (letter)
 }
 s++;
 }
 
-return (letter);
+return (NULL);
 }
