@@ -10,7 +10,7 @@
 char *_strchr(char *s, char c)
 {
 char *letter;
-while (*s)
+while (*s != '\0')
 {
 if (c == *s)
 {
