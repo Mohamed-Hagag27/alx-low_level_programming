@@ -25,7 +25,7 @@ if (num  == 0)
 length = strlen(argv[i]);
 for(j = 0 ; j < length; j++)
 {
-if ((int) argv[i][j] != 48 )
+if (isdigit(arg[i][j]) == 0 )
 {
 printf("Error\n");
 return (1);
