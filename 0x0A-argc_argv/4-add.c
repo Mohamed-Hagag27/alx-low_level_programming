@@ -21,7 +21,7 @@ for (i = 1; i < argc; i++)
 int num = atoi(argv[i]);
 if (num  == 0)
 {
-if ((int) argv[i][0] != 48)
+  if ((int) argv[i][0] != 48 && ( (int) argv[i][1] == 0 || (int) argv[i][1] == 48))
 {
 printf("Error\n");
 return (1);
