@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * main - main function
  * @argc: number of arguments
@@ -10,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-int sum = 0, i;
+  int sum = 0, i, j, length;
 if (argc == 1)
 {
 printf("0\n");
@@ -21,10 +22,14 @@ for (i = 1; i < argc; i++)
 int num = atoi(argv[i]);
 if (num  == 0)
 {
-  if ((int) argv[i][0] != 48 && ( (int) argv[i][1] == 0 || (int) argv[i][1] == 48))
+length = strlen(argv[i]);
+for(j = 0 ; j < length; j++)
+{
+if ((int) argv[i][j] != 48 )
 {
 printf("Error\n");
 return (1);
+}
 }
 }
 if (num > 0)
