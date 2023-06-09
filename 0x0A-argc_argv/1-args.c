@@ -14,6 +14,6 @@ if (argv[0] == NULL)
 {
 return (0);
 }
-printf("%d\n", argc-1);
+printf("%d\n", argc - 1);
 return (0);
 }
