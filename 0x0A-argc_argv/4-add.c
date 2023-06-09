@@ -26,7 +26,7 @@ if (num  == 0)
 length = strlen(argv[i]);
 for(j = 0 ; j < length; j++)
 {
-if (isdigit(arg[i][j]) == 0 )
+if (isdigit(argv[i][j]) == 0 )
 {
 printf("Error\n");
 return (1);
