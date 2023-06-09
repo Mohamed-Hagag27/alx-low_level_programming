@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -14,6 +14,6 @@ if (argv[0] == NULL)
 {
 return (0);
 }
-printf("%s\n", argc);
+printf("%d\n", argc);
 return (0);
 }
