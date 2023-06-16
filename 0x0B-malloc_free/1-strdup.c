@@ -8,19 +8,24 @@
  * @str: the string to be duplicatd
  * Return: NULL in failure while the duplicated string in success
  */
-
 char *_strdup(char *str)
 {
 int i = 0;
 char *arr;
+int count = 0;
 if (str == NULL)
 return (NULL);
 while (*str)
 {
 i++;
 }
-arr = malloc(i * sizeof(char));
+arr = malloc(i *sizeof(char));
 if (arr == NULL)
 return (NULL);
+while (*str)
+{
+arr[count] = str[count];
+count++
+}
 return (arr);
 }
