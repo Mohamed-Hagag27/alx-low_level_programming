@@ -18,6 +18,7 @@ return (NULL);
 while (*str)
 {
 i++;
+str++;
 }
 arr = malloc(i *sizeof(char));
 if (arr == NULL)
