@@ -23,11 +23,6 @@ tmp++;
 arr = malloc(i *sizeof(char));
 if (arr == NULL)
 return (NULL);
-while (*str)
-{
-*arr = *str;
-str++;
-arr++;
-}
+arr = str;
 return (arr);
 }
