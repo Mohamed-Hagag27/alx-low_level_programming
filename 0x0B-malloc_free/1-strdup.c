@@ -25,7 +25,7 @@ return (NULL);
 while (*str)
 {
 arr[count] = str[count];
-count++
+count++;
 }
 return (arr);
 }
