@@ -12,7 +12,6 @@ char *_strdup(char *str)
 {
 int i = 0;
 char *arr;
-int count = 0;
 char *tmp = str;
 if (str == NULL)
 return (NULL);
@@ -26,9 +25,9 @@ if (arr == NULL)
 return (NULL);
 while (*str)
 {
-arr[count] = str[count];
+*arr = *str;
 str++;
-count++;
+arr++;
 }
 return (arr);
 }
