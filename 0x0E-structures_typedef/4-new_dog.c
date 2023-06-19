@@ -78,3 +78,4 @@ newDog->age = age;
 newDog->owner = _strcpy(newOwner, owner);
 
 return (newDog);
+}
