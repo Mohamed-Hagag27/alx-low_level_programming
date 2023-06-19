@@ -22,13 +22,13 @@ return (0);
 
 void print_dog(struct dog *d)
 {
+int n = (int) d->age %10;
 if (d == NULL)
 return;
 if (d->name == NULL)
 printf("Name: (nil)\n");
 else
 printf("Name: %s\n", d->name);
-int n = d->age %10;
 if (!_isdigit(n))
 printf("age: (nil)\n");
 else
