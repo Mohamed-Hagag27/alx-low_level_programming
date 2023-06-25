@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * array_oiterator - executes a callback function on every element
+ * array_iterator - executes a callback function on every element
  * of an array.
  * @array: the given array
  * @size: size of the array
